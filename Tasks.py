@@ -62,7 +62,7 @@ def Task4():
     list = [4,5,-1,-8,0,14,42,-31,21,6,-7,42,-71]
     for i in range(len(list)):
         for j in range(0,(len(list)-1-i)):
-            if(list[j] > list[j+1]): # Pour la trié en ordre décroissant on remplace > par <
+            if(list[j] > list[j+1]): 
                 temp = list[j]
                 list[j] = list[j+1]
                 list[j+1] = temp
