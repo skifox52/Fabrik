@@ -89,7 +89,7 @@ def Task5():
 def Task6():
     userInput = input('Type a string :\n')
     while len(userInput) == 0:
-        userInput = input('Please type a valid string\n')
+        userInput = input('Please type a valid')
     letterInput = input('Type a letter\n')
     while len(letterInput) > 1 or len(letterInput) == 0:
         letterInput = input('Please type a single letter\n')
@@ -99,5 +99,3 @@ def Task6():
             count += 1
     print("There are ",count," characters ",letterInput," in  the string '",userInput,"'")
 
-
-Task6()
